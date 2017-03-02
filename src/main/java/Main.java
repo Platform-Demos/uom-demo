@@ -12,11 +12,11 @@ public class Main {
         System.out.println(main.savePerson(person));
     }
 
-    public Person savePerson(Person person) {
+    public Person savePerson(Person person) //{
         if (person == null) {
             throw new IllegalArgumentException();
         } else {
-            person.setId("p100");
+           // person.setId("p100");
             return person;
         }
     }
